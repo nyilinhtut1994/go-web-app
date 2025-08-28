@@ -4,7 +4,7 @@ kind: Ingress
 metadata:
   name: go-web-app
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: ""
 spec:
   rules:
   - host: gncloudtest.com.mm
