@@ -1,12 +1,13 @@
 name: go-web-app-CI
 
 on:
-    push:
-        branches:
-        - main
-        paths-ignore:
-        - 'README.md'
-        - 'helm/*'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'helm/**'
+      - 'k8s/**'
+      - 'README.md'
 
 jobs:
     build:
