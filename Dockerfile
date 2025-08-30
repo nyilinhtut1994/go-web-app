@@ -4,7 +4,8 @@ WORKDIR /app
 
 COPY go.mod .
 
-RUN go mod download #download dependencies that is mentioned in go.mod
+RUN go mod download 
+#download dependencies that is mentioned in go.mod
 
 COPY . .
 
