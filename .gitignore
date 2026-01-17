@@ -20,3 +20,7 @@
 # Go workspace file
 go.work
 go.work.sum
+./aws
+aws awscliv2.zip
+aws/
+kubectl.sha256
