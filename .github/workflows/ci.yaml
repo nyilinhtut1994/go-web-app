@@ -68,7 +68,7 @@ jobs:
             context: .
             files: ./Dockerfile
             push: true
-            tags: ${{ secrets.DOCKERHUB_USERNAME }}/go-web-app:${{github.run_id}}
+            tags: ${{ secrets.DOCKERHUB_USERNAME }}/go-web-test-2:${{github.run_id}}
 
     update-tag-helm:
         runs-on: ubuntu-latest
